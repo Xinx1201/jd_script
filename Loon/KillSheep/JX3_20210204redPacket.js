@@ -2,7 +2,7 @@
  * @Author: Xin https://github.com/Xin-code 
  * @Date: 2021-02-04 13:11:59 
  * @Last Modified by: Xin 
- * @Last Modified time: 2021-02-26 19:12:20
+ * @Last Modified time: 2021-03-25 10:17:11
  * 
  * 剑三通宝红包
  * 
@@ -73,8 +73,7 @@ const role_nameArr =[]
     await $.wait(200)
     nowCookie = CookiesArr[i]
     await $.wait(200)
-    await 
-    getUserInfo()
+    await getUserInfo()
   }
   
   // 获得通宝
