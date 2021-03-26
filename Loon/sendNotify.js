@@ -2,7 +2,7 @@
  * @Author: Xin https://github.com/Xin-code 
  * @Date: 2021-01-27 08:40:21 
  * @Last Modified by: Xin 
- * @Last Modified time: 2021-02-19 15:04:00
+ * @Last Modified time: 2021-03-26 10:41:17
  */
 
 const querystring = require("querystring");
@@ -618,7 +618,7 @@ function pushPlusNotify(text, desp) {
         topic: `${PUSH_PLUS_USER}`
       };
       const options = {
-        url: `https://pushplus.hxtrip.com/send`,
+        url: `http://www.pushplus.plus/send`,
         body: JSON.stringify(body),
         headers: {
           'Content-Type': ' application/json'
