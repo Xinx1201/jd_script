@@ -2,7 +2,7 @@
  * @Author: Xin https://github.com/Xin-code 
  * @Date: 2021-01-27 08:40:21 
  * @Last Modified by: Xin 
- * @Last Modified time: 2021-03-26 10:41:17
+ * @Last Modified time: 2021-03-26 10:45:09
  */
 
 const querystring = require("querystring");
@@ -621,7 +621,7 @@ function pushPlusNotify(text, desp) {
         url: `http://www.pushplus.plus/send`,
         body: JSON.stringify(body),
         headers: {
-          'Content-Type': ' application/json'
+          'Content-Type': 'application/json'
         }
       }
       $.post(options, (err, resp, data) => {
